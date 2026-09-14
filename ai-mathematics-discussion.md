@@ -19,7 +19,7 @@ OpenAI 在 9 月 10 日补充称，Buckmaster 此前两个月的 Codex 提示不
 
 9 月 11 日，Terry Tao 发布了由 25 位菲尔兹奖得主签署的《A Severe Misalignment of AI in Mathematics》。Tao 说，这份文字来自签署者在此前一周的讨论。联合声明把著名未解问题作为模型能力竞赛的现象放进更长的数学传统中考察。它强调讨论、简化、仔细写作、先行工作与归属、教学，以及从证明中提炼概念和新问题；在它的叙述里，解决问题是通向概念理解和洞察的工具，如果没有数学家继续发展并把 AI 构想纳入数学传统，这些想法就难以真正“活起来”。
 
-这份声明与前几天的事件有直接的时间和主题联系，但公开文字讨论的范围更广，并不是一份针对某一份证明作出数学裁决的评审意见。它主要提出一个关于完整数学工作的要求：结果需要被共同体讨论、解释、放回先行研究，并由人类继续发展。OpenAI 的说明强调迅速发现和形式化新结果的能力；Buckmaster 的陈述把未公开研究材料、直接沟通、竞争性发表和优先权带进了讨论。三份材料观察的是同一变化的不同侧面。
+这份声明与前几天的事件有直接的时间和主题联系，但公开文字讨论的范围更广，并不是一份针对某一份证明作出数学裁决的评审意见。它主要提出一个关于完整数学工作的要求：结果需要被共同体讨论、解释、放回先行研究，并由人类继续发展。OpenAI 的说明强调迅速发现和形式化新结果的能力；Buckmaster 的陈述把未公开研究材料、直接沟通、竞争性发表和优先权带进了讨论。三份材料呈现了同一周争议的不同侧面。
 
 这次事件把三个时间尺度压缩到了一起。证明可以在数日内生成并形式化，人类对深证明的理解通常需要更久，而数据、合作与发表规则必须在竞争发生时就发挥作用。由此出现三个相连、但不能互相代答的问题：结论在什么意义上正确，正确的结论怎样成为共同知识，以及产生结论的过程怎样保护合作与优先权。
 
@@ -33,7 +33,7 @@ OpenAI 在 9 月 10 日补充称，Buckmaster 此前两个月的 Codex 提示不
 
 ## 第二问：为什么不能把知识传承设为使用正确结果的前置条件
 
-这里是本文最明确的判断。SAT 提供了一个解释程度更低、但已经被广泛接受的参照。对于一个具体的布尔可满足性问题，求解器可能给出一份极其庞大的证书，通常没有人会逐行理解它的数学意义。在要求可靠排除时，独立检查器确认这份证书以后，人们就会接受“这个实例不可满足”，并把结论用于协议验证、调度或有限组合研究。它可能没有简洁的概念证明，也没有揭示可以推广的结构；可检查性仍然赋予这个具体结论明确的使用价值。
+这里是本文最明确的判断。SAT 提供了一个解释程度更低、但已经被广泛接受的参照。对于一个具体的布尔可满足性问题，求解器可能给出一份极其庞大的证书，通常没有人会逐行理解它的数学意义。要判定这个实例不可满足时，独立检查器确认这份证书以后，人们就会接受这一结论，并把它用于协议验证、调度或有限组合研究。它可能没有简洁的概念证明，也没有揭示可以推广的结构；可检查性仍然赋予这个具体结论明确的使用价值。
 
 经过形式化的 AI 证明至少具备同样的基本条件，而且通常还提供了按定义、引理和推导步骤组织的完整形式结构。它可能很长，证明路线也可能尚未被人类真正理解。只要论文命题、形式定理和全部依赖准确对应，可信内核通过，独立团队能够重现检查，后续研究就可以在所声明的范围内引用它、调用它或以它为前提继续证明。
 
@@ -49,11 +49,11 @@ OpenAI 在 9 月 10 日补充称，Buckmaster 此前两个月的 Codex 提示不
 
 联合声明强调的知识传承仍然是数学的核心工作。一个定理进入共同知识，需要有人解释它解决了什么，把它放回先行文献，说明关键机制和适用范围，澄清哪些步骤能够复用，并留下其他研究者可以继续使用的语言。教学、直觉、抽象、归属和新问题使一个结果跨越研究小组和世代。
 
-本文的补充不是降低这项工作的地位，而是把它和正确性放在两条可以并行推进的轴上。经过核验的结果可以先以准确标明边界和成熟度的形式公开、引用和使用；人类可读的重写、结构解释、历史定位、外部审评和教学材料随后继续完善。知识传承让结果更容易被理解、推广和创造性地使用，但它不应成为正确结果获得数学地位或受限使用价值的事前许可。
+本文把这项工作与正确性放在两条可以并行推进的轴上，也因此保留了它应有的地位。经过核验的结果可以先以准确标明边界和成熟度的形式公开、引用和使用；人类可读的重写、结构解释、历史定位、外部审评和教学材料随后继续完善。知识传承让结果更容易被理解、推广和创造性地使用，但它不应成为正确结果获得数学地位或受限使用价值的事前许可。
 
 时间在这里尤其重要。深证明从首次公开到共同体形成稳定解释，本来就可能需要数月或数年。六天内还没有成熟的公共说明，不能被读成结果没有留下知识，也不能被读成证明已经被人类充分理解。我们能做的判断应当与公开证据的时间范围相称。
 
-更完整的知识转化路径会保留多个阶段：可检查的初始结果，人类可读的论文，形式证明与复现记录，公开预印本，外部审评及其带来的修订，之后形成的综述、教材和新的研究方向。机器可以缩短发现和形式化的时间；理解、选择、归属和传播仍由人类共同体完成。这些阶段共同构成知识传承，却不需要排成一条只有前一步完成后下一步才允许开始的单行队列。
+更完整的知识转化路径会保留多个阶段：可检查的初始结果，人类可读的论文，形式证明与复现记录，公开预印本，外部审评及其带来的修订，之后形成的综述、教材和新的研究方向。机器可以缩短发现和形式化的时间；理解、选择、归属和传播仍由人类共同体完成。这些阶段共同构成知识传承，可以并行推进、前后衔接，不必排成一条单行队列。
 
 ## 第四问：结果有价值，与产生过程是否恰当，是两次判断
 
@@ -65,7 +65,7 @@ OpenAI 在 9 月 10 日补充称，Buckmaster 此前两个月的 Codex 提示不
 
 竞争本身并不罕见，公开展示模型能力也可能推动工具发展。问题出现在竞争改变了研究者的选择空间：如果研究者担心未公开想法进入训练、评估或相邻项目，他们可能停止分享早期工作；如果企业掌握普通用户无法核实的访问记录、训练边界和内部时间线，优先权争议就很难靠公开声明解决。
 
-可行的治理需要在争议发生以前建立。研究用途的模型应清楚区分产品改进、训练、内部评估和竞争性研究，并提供可以核查的隔离模式；重要访问和模型版本应留下审计记录；接触未公开研究后启动相邻项目，应有利益冲突登记、内部隔离和发表审查；优先权争议应保全时间戳、通信和访问日志，并允许独立第三方在保密条件下核查。制度的目标不是替任何一方预先定罪，而是让事实能够被可靠地查明。
+可行的治理需要在争议发生以前建立。研究用途的模型应清楚区分产品改进、训练、内部评估和竞争性研究，并提供可以核查的隔离模式；重要访问和模型版本应留下审计记录；接触未公开研究后启动相邻项目，应有利益冲突登记、内部隔离和发表审查；优先权争议应保全时间戳、通信和访问日志，并允许独立第三方在保密条件下核查。制度应避免在事实未明时替任何一方预先定罪，同时让事实能够被可靠地查明。
 
 ## 三类判断怎样共同落地
 
@@ -75,7 +75,7 @@ OpenAI 在 9 月 10 日补充称，Buckmaster 此前两个月的 Codex 提示不
 - **知识状态**：可读论证、结构解释、先行工作、归属、教学和后续问题，说明结果在共同体中成熟到了什么程度。
 - **过程状态**：数据用途、访问记录、同意、竞争规则和优先权程序，说明研究过程能否获得信任。
 
-这套分层不是给成果贴一个总分，而是让每个问题由自己的证据回答。形式化核验可以先完成，知识传承可以同时推进，过程审查也可以独立进行。一个状态的暂时空缺，不应被偷换成另外两个状态的否定。
+这套分层让每个问题都由自己的证据回答，也避免给成果贴一个总分。形式化核验可以先完成，知识传承可以同时推进，过程审查也可以独立进行。一个状态的暂时空缺，不应被偷换成另外两个状态的否定。
 
 ## 这场讨论真正要求我们做什么
 
@@ -102,7 +102,7 @@ On September 10, OpenAI added that Buckmaster’s Codex prompts from the previou
 
 On September 11, Terry Tao published “A Severe Misalignment of AI in Mathematics,” signed by 25 Fields medalists. Tao says the text grew from discussions among the signatories during the preceding week. The declaration places the use of famous open problems as model benchmarks within a longer mathematical tradition. It calls for talks, simplifications, careful writeups, prior work and attribution, teaching, and the extraction of concepts and new questions from proofs. In its account, solving a problem is a tool for reaching conceptual understanding and insight; without mathematicians who continue to develop AI-conceived ideas and integrate them into mathematical tradition, those ideas may never become fully alive.
 
-The declaration has a direct chronological and thematic connection to the events of the preceding days, but its public text has a broader scope. It is not a mathematical verdict on one particular proof. It sets out what is needed for an AI result to mature into complete mathematical work: discussion, explanation, placement among earlier research, and continued human development. OpenAI emphasizes rapid discovery and formalization; Buckmaster’s account brings unpublished materials, direct communication, competitive publication, and priority into view. The three documents observe different sides of the same change.
+The declaration has a direct chronological and thematic connection to the events of the preceding days, but its public text has a broader scope. It is not a mathematical verdict on one particular proof. It sets out what is needed for an AI result to mature into complete mathematical work: discussion, explanation, placement among earlier research, and continued human development. OpenAI emphasizes rapid discovery and formalization; Buckmaster’s account brings unpublished materials, direct communication, competitive publication, and priority into view. The three documents present different sides of the same week’s episode.
 
 The episode compresses three timescales. A proof can be generated and formalized within days; human understanding of a deep proof usually takes longer; rules for data, collaboration, and publication must already work while the competition is taking place. The same event therefore raises three connected questions that cannot answer one another: in what sense is the result correct, how does a correct result become shared knowledge, and how should the process that produced it protect collaboration and priority?
 
@@ -116,7 +116,7 @@ Mathematical status therefore needs a reviewable evidence chain: the exact state
 
 ## Second question: why knowledge transmission cannot be a precondition for using a correct result
 
-This is the clearest judgment in this discussion. SAT offers a reference with even less explanation. For a particular Boolean satisfiability instance, a solver may produce an enormous certificate whose mathematical meaning no person understands line by line. When reliable exclusion is required, an independent checker can validate the certificate; people then accept that the instance is unsatisfiable and use the conclusion in protocol verification, scheduling, or finite combinatorics. The certificate may offer no compact conceptual proof and reveal no general structure. Its checkability still gives the particular conclusion a definite use value.
+This is the clearest judgment in this discussion. SAT offers a reference with even less explanation. For a particular Boolean satisfiability instance, a solver may produce an enormous certificate whose mathematical meaning no person understands line by line. When the goal is to establish that the instance is unsatisfiable, an independent checker can validate the certificate; people can then use that conclusion in protocol verification, scheduling, or finite combinatorics. The certificate may offer no compact conceptual proof and reveal no general structure. Its checkability still gives the particular conclusion a definite use value.
 
 A formalized AI proof meets at least the same basic condition and usually supplies more: a complete formal structure organized through definitions, lemmas, and derivation steps. It may be long, and people may not yet understand why its route works. When the paper statement, formal theorem, and all dependencies correspond exactly, a trusted kernel accepts the proof, and an independent team can reproduce the check, later work can cite it, invoke it, or use it as a premise within its declared scope.
 
@@ -131,7 +131,7 @@ Recognizing that a checked result can be used does not say that it has completed
 
 The knowledge transmission emphasized by the declaration remains core mathematical work. For a theorem to become shared knowledge, someone must explain what it solves, place it among earlier research, describe its mechanism and scope, clarify which steps can be reused, and leave a language in which other researchers can continue. Teaching, intuition, abstraction, attribution, and new questions allow a result to cross research groups and generations.
 
-The addition here is not to lower the status of that work, but to place it on an axis that can advance alongside correctness. A checked result can first be released, cited, and used with its boundary and maturity stated accurately. Human-readable rewriting, structural interpretation, historical placement, external review, and teaching materials can then continue to develop. Knowledge transmission makes a result easier to understand, generalize, and use creatively; it should not become prior permission for a correct result to acquire mathematical status or bounded use value.
+This discussion places that work on an axis that can advance alongside correctness, preserving its status while adding a second question. A checked result can first be released, cited, and used with its boundary and maturity stated accurately. Human-readable rewriting, structural interpretation, historical placement, external review, and teaching materials can then continue to develop. Knowledge transmission makes a result easier to understand, generalize, and use creatively; it should not become prior permission for a correct result to acquire mathematical status or bounded use value.
 
 Time matters especially here. A deep proof can take months or years to move from first publication to a stable community explanation. Six days without a mature public account cannot be read as proof that the result has left no knowledge, and it cannot be read as proof that the proof has already been fully understood. Our judgment should match the time range covered by the public evidence.
 
@@ -157,7 +157,7 @@ The same output can carry three statuses at once, and none should overwrite the 
 - **Knowledge status:** readable argument, structural explanation, prior work, attribution, teaching, and later questions show how far the result has matured in the community.
 - **Process status:** data use, access records, consent, competition rules, and priority procedures show whether the research process can be trusted.
 
-This is not a single score for a result. Each question is answered by its own evidence. Formal checking can finish first, knowledge transmission can advance at the same time, and process review can proceed independently. A temporary gap in one status should not be exchanged for a denial of the other two.
+Each question is answered by its own evidence, so the result does not receive a single score. Formal checking can finish first, knowledge transmission can advance at the same time, and process review can proceed independently. A temporary gap in one status should not be exchanged for a denial of the other two.
 
 ## What this discussion actually requires
 
@@ -182,7 +182,7 @@ OpenAI は9月10日、Buckmaster が過去二か月に入力した Codex プロ�
 
 9月11日、Terry Tao は25名のフィールズ賞受賞者が署名した「A Severe Misalignment of AI in Mathematics」を公開しました。Tao によれば、この文章は署名者が前週に行った議論から生まれました。共同声明は、著名な未解決問題をモデル能力の競争に用いる現象を数学の長い伝統の中で捉えています。議論、簡略化、丁寧な書き下ろし、先行研究と帰属、教育、証明から概念や新しい問いを抽出する仕事を重視します。その説明では、問題を解くことは概念的理解と洞察へ至るための手段です。数学者が AI による着想を発展させ、数学の伝統へ組み込まなければ、それらの着想は十分に「生きたもの」にならないかもしれない、と述べています。
 
-この共同声明は、直前の出来事と時間的にも主題上も直接つながっていますが、公開文の射程はより広いものです。特定の証明について数学的な裁定を下す審査文ではありません。AI による結果が完全な数学的仕事へ成熟するために必要な、議論、説明、先行研究の中での位置づけ、人間による継続的な発展を示しています。OpenAI は新結果の迅速な発見と形式化を強調し、Buckmaster の記録は未公開資料、直接の連絡、競合する公開、優先権を議論に持ち込みました。三つの文書は同じ変化の異なる側面を見ています。
+この共同声明は、直前の出来事と時間的にも主題上も直接つながっていますが、公開文の射程はより広いものです。特定の証明について数学的な裁定を下す審査文ではありません。AI による結果が完全な数学的仕事へ成熟するために必要な、議論、説明、先行研究の中での位置づけ、人間による継続的な発展を示しています。OpenAI は新結果の迅速な発見と形式化を強調し、Buckmaster の記録は未公開資料、直接の連絡、競合する公開、優先権を議論に持ち込みました。三つの文書は同じ週の出来事の異なる側面を示しています。
 
 今回の出来事は三つの時間軸を圧縮しました。証明は数日で生成され形式化され得ます。深い証明を人間が理解するには通常さらに時間がかかります。データ、協力、公開の規則は競争が進んでいる最中から機能しなければなりません。同じ出来事から、結論はどの意味で正しいのか、正しい結論はどう共同知になるのか、結論を生んだ過程は協力と優先権をどう守るべきか、という三つの問いが続いて現れます。
 
@@ -196,7 +196,7 @@ OpenAI は9月10日、Buckmaster が過去二か月に入力した Codex プロ�
 
 ## 第二の問い：なぜ知識継承を正しい結果の利用条件にしてはならないのか
 
-ここはこの議論で最も明確な判断です。SAT は、さらに説明の少ない参照点を与えます。特定のブール充足可能性問題について、求解器は人が一行ずつ数学的意味を理解しないほど巨大な証明書を出すことがあります。信頼できる排除が必要なとき、独立した検査器が証明書を確認すれば、そのインスタンスが充足不能であることを受け入れ、プロトコル検証、スケジューリング、有限組合せ研究に利用できます。簡潔な概念的証明を与えず、一般化可能な構造を示さない場合でも、検査可能性はその具体的結論に明確な利用価値を与えます。
+ここはこの議論で最も明確な判断です。SAT は、さらに説明の少ない参照点を与えます。特定のブール充足可能性問題について、求解器は人が一行ずつ数学的意味を理解しないほど巨大な証明書を出すことがあります。そのインスタンスが充足不能であることを確かめるとき、独立した検査器が証明書を確認すれば、その結論を受け入れ、プロトコル検証、スケジューリング、有限組合せ研究に利用できます。簡潔な概念的証明を与えず、一般化可能な構造を示さない場合でも、検査可能性はその具体的結論に明確な利用価値を与えます。
 
 形式化された AI 証明は少なくとも同じ基本条件を満たし、通常はさらに、定義、補題、推論手順で構成された完全な形式構造も提示します。長大で、その経路がなぜ働くかを人間がまだ理解していないこともあります。論文の命題、形式定理、すべての依存結果が正確に対応し、信頼できる kernel が証明を受理し、独立したチームが検査を再現できれば、後続研究は宣言された範囲で引用し、呼び出し、前提として利用できます。
 
@@ -211,7 +211,7 @@ OpenAI は9月10日、Buckmaster が過去二か月に入力した Codex プロ�
 
 共同声明が重視する知識継承は、数学の核心的な仕事です。定理が共同知になるには、何を解いたかを説明し、先行研究の中に位置づけ、機構と適用範囲を示し、再利用できる手順を明確にし、他の研究者が続けられる言葉を残す必要があります。教育、直観、抽象化、帰属、新しい問いによって、結果は研究グループや世代を越えます。
 
-ここで加える判断は、この仕事の地位を下げることではありません。正しさと並行して進められる軸として位置づけることです。検査済みの結果は境界と成熟度を正確に示した上で、先に公開、引用、利用できます。人間が読める書き直し、構造的解釈、歴史的位置づけ、外部審査、教材はその後も発展します。知識継承は結果の理解、一般化、創造的利用を容易にしますが、正しい結果が数学的地位や範囲を限定した利用価値を得るための事前許可にすべきではありません。
+ここでの補足は、この仕事を正しさと並行して進められる第二の軸として位置づけます。検査済みの結果は境界と成熟度を正確に示した上で、先に公開、引用、利用できます。人間が読める書き直し、構造的解釈、歴史的位置づけ、外部審査、教材はその後も発展します。知識継承は結果の理解、一般化、創造的利用を容易にしますが、正しい結果が数学的地位や範囲を限定した利用価値を得るための事前許可にすべきではありません。
 
 ここでは時間が特に重要です。深い証明が初めて公開されてから、共同体の安定した説明になるまでには、数か月または数年かかることがあります。成熟した公開説明が六日間現れなかったことは、結果が知識を残していないことの証明ではありません。証明がすでに十分理解されたことの証明でもありません。判断は公開証拠が覆う時間範囲に合わせる必要があります。
 
