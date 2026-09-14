@@ -5,7 +5,6 @@ last_revised: 2026-09-14
 
 # zh
 
-> 编辑主稿（中文）。网页三语内容由本稿整理后生成；本稿用于完整的线性阅读和论证维护。
 
 ## 这一周发生了什么
 <!-- aside: opening -->
@@ -89,7 +88,6 @@ OpenAI 在 9 月 10 日补充称，Buckmaster 此前两个月的 Codex 提示不
 
 # en
 
-> Editorial master. The website’s three-language content is generated from this file; the file is maintained for complete linear reading and argument review.
 
 ## What happened over the course of a week
 <!-- aside: opening -->
@@ -169,7 +167,6 @@ Changes in technological speed need institutional responses and patient communit
 
 # ja
 
-> 編集用原稿。ウェブサイトの三言語本文はこのファイルから整えます。この原稿は全体を通読し、論旨を維持するために使います。
 
 ## この一週間に何が起きたのか
 <!-- aside: opening -->
