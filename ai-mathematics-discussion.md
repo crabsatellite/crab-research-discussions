@@ -30,11 +30,15 @@ Buckmaster 的陈述还记录了一个更尖锐的优先权与署名争议。他
 
 ## Tao 的两次发言把同一事件推向了更大的讨论
 
-9 月 7 日，Terry Tao 介绍 Alpöge–Buckmaster 的工作时，称其为一项令人振奋的新进展。他解释说，三项已经完成的结果距离无外力的 Navier–Stokes 问题仍有一步；在他看来，它们已经让继续推进这条路线看起来非常可行。Tao 还指出，这些论证高度使用了 AI，作者正在把最初极难阅读的文字改写成专业说明；他自己也需要通过黑板讨论和现代工具继续消化证明。对 Tao 来说，解出问题是获得数学理解的手段，理解和洞察才是更主要的目标。
+9 月 7 日，Terry Tao 介绍 Alpöge–Buckmaster 的工作时，称其为一项令人振奋的新进展。他解释说，三项已经完成的结果距离无外力的 Navier–Stokes 问题仍有一步；在他看来，它们已经让继续推进这条路线看起来非常可行。Tao 还指出，这些论证高度使用了 AI，作者正在把最初极难阅读的文字改写成专业说明；他自己也需要通过黑板讨论和现代工具继续消化证明。对 Tao 来说，解出问题是获得数学理解的手段，理解和洞见才是更主要的目标。
 
-9 月 11 日，Tao 发布《A Severe Misalignment of AI in Mathematics》，初始签署者包括 25 位菲尔兹奖得主。他说明，这份文字来自签署者此前一周的讨论；因为他们认为情况紧迫，所以没有等待一个更长的协商过程。声明强调，数学结果需要被讨论、简化、写成可读的论文，放回先行工作和归属的历史中，并通过教学和后续研究进入共同体。它担心的是，当 AI 以越来越快的速度产出“真或假”的答案时，解决题目这一工具可能与数学共同体真正想要的理解、提问和传承脱节。
+9 月 11 日，Tao 发布《A Severe Misalignment of AI in Mathematics》，初始签署者包括 25 位菲尔兹奖得主。他说明，这份文字来自签署者此前一周的讨论；因为他们认为情况紧迫，所以没有等待一个更长的协商过程。原文提出了一套明确的价值排序：解题只是通往数学共同体“首要目标”的工具和代理，那个目标是概念理解与洞见。声明批评 AI 公司把著名公开问题作为模型 benchmark 的竞赛，担心快速宣布“真或假”的答案会挤压认真写作、提炼新方法、引用先行工作，以及由数学家把结果纳入共同知识的时间。
 
-这两次发言之间有清楚的时间和主题联系，但它们不是同一件事。Tao 9 月 7 日的文章是对 Alpöge–Buckmaster 结果和数学机制的介绍；9 月 11 日的联合声明则把问题扩展到 AI 公司、数学共同体和其他知识行业。声明没有替 OpenAI 这份具体证明作出独立的数学裁决。它提出的是更一般的担忧：一个结果何时只是被算出来，何时真正变成了共同体可以理解、传授和继续使用的知识。
+这两次发言在时间和主题上紧密相连，却承担不同作用。9 月 7 日的文章介绍 Alpöge–Buckmaster 的结果和数学机制；9 月 11 日的声明把讨论扩展到研究激励。声明没有点名 OpenAI、Navier–Stokes、Alpöge 或 Buckmaster，也没有正式裁定 OpenAI 的论文；但它并不脱离这次事件。OpenAI 刚刚把一个著名开放问题作为模型能力展示，而声明直接反对 AI 公司用这类问题作为 benchmark。读者把两者放在同一场讨论中，是合理的。
+
+声明的论证还包含一条清楚的因果判断：benchmark 竞赛推动快速宣布结果，快速宣布又挤压认真写作、方法提炼、先行工作引用和知识整合。这指出了一种真实的制度风险，也让声明在当前语境中具有明确的批评方向。从制度风险走到对一项具体成果的判断，需要实际证据。benchmark 动机说明机构为何投入资源，并提出一个过程假设：发布节奏是否压缩了写作、归属和解释。答案来自论文与形式化、引用记录，以及作者面对批评时的修订和后续说明。商业展示可以与数学贡献同时存在，研究过程的质量需要在另一条证据线上判断。
+
+声明与当前事件有实质关系，对具体成果的判断仍需回到作品。声明列出的写作、归属、解释和传承工作都是真实的学术贡献；它把概念理解置于首位、把解题视为工具和代理，则提出了一套我们并不接受的普遍排序。
 
 ## 为什么要把这场事件拆成三个问题
 
@@ -50,27 +54,31 @@ Buckmaster 的陈述还记录了一个更尖锐的优先权与署名争议。他
 
 ## 第一问：形式化的结论在什么意义上正确
 
-“形式化”把命题、变量、假设、依赖和证明写成一个可信内核能够检查的对象。它改变的是证明的可检查表达，不是论文的排版。如果论文所说的结论与形式对象逐项对应，依赖和公理状态被公开，内核能够重新检查，并且独立的人或团队能够复现，那么这个结论至少在声明的范围内获得了一个明确的正确性边界。它是否包含新的数学结构，是否值得写进教材，是另外的判断。
+“形式化”把命题、变量、假设、依赖和证明写成一个可信内核能够检查的对象。如果论文中的自然语言主张与形式对象逐项对应，依赖和公理状态被公开，内核能够重新检查，并且独立的人或团队能够复现，那么这个结论就在声明的范围内获得了明确的正确性边界。它是否揭示新的结构、是否容易阅读、是否适合进入教材，需要另外的证据。
 
-SAT 提供了一个有用的参照。一个 Boolean 可满足性问题的求解器，可能只留下一个很大的搜索结果或一个由独立检查器验证的证书。使用者不必先理解求解器经历的每一步，才可以采用“这个实例不可满足”这一结论。它可以先进入协议验证、排程或有限组合计算，结构解释则在之后继续发展。SAT 证书可以在进入数学教材以前发挥作用；它经过检查的结论已经有了工程用途。
+SAT 给出了最简洁的参照。先固定一个具体的可满足性实例和一套可信的检查规则。求解器若声称实例可满足，可以交出一个赋值供检查；若声称不可满足，可以交出一份能够由独立检查器验证的证书。检查通过以后，下游工作就能在这个明确边界内采用该结论，用它排除一种设计、确认一种约束，或者继续下一步计算。使用者无需先理解求解器搜索过的每一条路径，证书也无需先被提炼成一套优雅理论，结论才开始有用。
 
-形式化的 AI 证明遵循同一条逻辑链。若 AI 给出的是一份复杂得多的证明，而这份证明已经被 Lean 这样的内核逐项检查，那么它至少不应因为人类还没有迅速提炼出结构，就被当作一个尚未存在的结果。它可能暂时难读，可能还没有形成漂亮的概念解释，甚至可能需要后续发现其中只是旧方法的组合；这些都影响它的成熟度和可传授性，却不自动否定形式化结论在边界内的可用性。与此同时，形式化也不是魔法：人仍需核对自然语言命题与形式对象是否一致，边界条件是否被正确表达，代码是否真的对应论文声称的结果。
+形式化的 AI 证明把同一逻辑放进更丰富的对象中。这里固定的是精确命题、证明项、依赖关系和检查内核。只要自然语言命题与形式命题忠实对应，依赖没有隐藏缺口，内核也确实接受证明项，这个定理便可以在所公布的边界内被后续证明调用。这份能够重复检查的证明对象，比模型给出的一句“答案为真”包含更多可审计结构。人类尚未提取出最好的概念结构，会限制解释、教学和推广；已经通过检查的对象依然在公布的边界内构成一项结果。
 
-这也是我们反对双重标准的地方。假如一位人类研究者在 9 月 8 日公开了同样范围、同样形式化状态的结果，我们不会仅仅因为到 9 月 14 日还没有教材式解说，就否认它的正确性或一切有限使用价值。把“来自 AI”作为几天内必须完成结构解释和知识传承的额外条件，会让来源替代数学质量成为评判指标。数学工作应当依据命题、证明、适用边界和证据来评价；来源与研究伦理有关，却不应单独改变正确性标准。
+在这里，我们与联合声明提出的普遍排序有明确分歧。经过可靠检验的新结论本身就是一种数学贡献，并非只是一种等待未来理解来赋予价值的代理。解释证明的结构、形成新概念、推广方法并把知识传给后来者，是另一种数学贡献。有些工作最重要的是结构，有些问题的确切答案本身就具有很高价值，更多时候两者共同构成成果。它们的相对贡献只能逐项判断，不能预先规定概念理解永远居于首位，也不能因为 AI 参与了解答或解释中的某一部分而改变排序。
 
-这段判断并不替 OpenAI 的论文完成数学审查。它只给出一个公平的原则：先问结论是否被正确表达和检查，再问人类如何理解它、怎样把它变成共同知识。不能因为第二个问题需要几年，就假定第一个问题在今天没有答案；也不能因为第一个问题有答案，就假定第二个问题已经完成。
+双重标准的风险并不只来自后来对声明的误读。声明本身把 benchmark 动机与匆忙发布、知识传承不足联系起来，这是一项值得检验的经验判断。完整的判断包含两个步骤。商业 benchmark 提出一个过程假设，询问这种激励是否压缩了写作、归属和解释；论文、形式化、引用、版本记录和后续行为提供判断是否失责的证据。数学标准本身不随动机提高或降低。人类研究者也可能受优先权、奖金或声望驱动而提前发布，成果仍然要回到作品上评价。AI 公司以模型能力为动机时，同一原则继续适用。
+
+如果同样范围、同样形式状态的早期结果由人类发布，通常会获得数月乃至数年的核查和消化时间；如果仅因来源是 AI，就在几天内被要求同时交出教科书式解释，否则不承认其贡献，来源便取代了作品本身。对形式化不忠实、依赖有缺口、论文难读、归属不准确的批评都可以成立，但应当指出具体缺陷，并对人类和 AI 参与的成果使用同一标准。
+
+这仍然没有替 OpenAI 的论文完成数学审查。它给出的是审查顺序：先检查命题、证明对象、依赖和形式化是否对应，再评价结构洞见、可读性、先行工作和长期传承。前一组问题获得答案，不代表后一组工作已经完成；后一组工作需要时间，也不能抹去前一组已经建立的内容。
 
 ## 第二问：正确结果如何成为共同知识
 
-联合声明强调知识传承，有充分理由。数学不是把答案放进仓库就结束了。一个结果需要说明它解决了什么，和哪些先行工作相连，哪些步骤是关键，哪些条件限制了它的使用，后来者可以怎样学习和推广。清晰的论文、公开的讨论、同行审评、教学材料、综述和教材，都是把一个局部结果接到共同知识上的不同环节。
+联合声明列出的可读写作、讨论、简化、准确归属、教学和后续研究，是数学长期发展的必要工作。这些工作把一个局部结果接入已有文献，使其他人能够理解它的范围、发现其中的方法，并据此继续研究。作者公开一个结果以后，仍然需要为这些环节承担责任。
 
-但这些环节不必排成一条“先传承、后使用”的单行道。一个已经经过形式化核验的局部结论，可以先以清楚的信任边界被引用、复现或用于后续计算；人类再用更长的时间理解它的结构，修正表述，提取方法，并判断它能否进入教材。作为人类知识留下来，是数学成果的一项功能；作为可以被可靠调用的组件留下来，是另一项功能。两者都重要，完成时间也不必相同。
+这些环节构成一种独立的贡献，不是数学价值的唯一来源，也不是使用正确结果之前必须通过的单向门槛。作为人类能够理解、教学和继续发展的知识留下来，是数学成果的一项功能；作为边界清楚、能够被后续证明和计算可靠调用的组件留下来，是另一项功能。两种功能可以互相加强，完成时间也可以不同。哪一种在具体成果中贡献更大，要看问题、定理和用途。
 
-庞加莱猜想的历史说明，深证明需要时间；证明在早期同样可以拥有价值。Perelman 的第一篇相关预印本发布于 2002 年 11 月 11 日，随后两篇材料分别在 2003 年 3 月和 7 月出现；从第一篇预印本到材料基本齐备约八个月。之后，Hamilton、Kleiner、Lott、Tian 等人的解说、核查和整理持续推进。到 2006 年，围绕这项百年问题的证明已经经过约三年半的讨论和说明，才逐步形成了共同体可以依靠的公开理解。这里没有一个简单的“某一天人类突然完成理解”的开关，只有从证明、核查、解释到教学的连续过程。
+庞加莱猜想的历史说明，深证明需要自己的时间尺度。Perelman 的第一篇相关预印本发布于 2002 年 11 月 11 日，随后两篇材料分别在 2003 年 3 月和 7 月出现；从第一篇预印本到初始材料基本齐备约八个月。之后，Hamilton、Kleiner、Lott、Tian 等人的解说、核查和整理继续推进。到 2006 年，距离第一篇预印本约三年半，这项证明才逐步形成共同体可以公开依靠的理解。它在最初数日没有完成教材化，并不意味着当时没有数学贡献；证明、核查、解释和教学本来就是不同速度的工作。
 
-OpenAI 在 9 月 8 日公开材料，到本文 9 月 14 日修订时只有六天。六天内没有成熟的公共解说，只能说明阅读和转化刚刚开始。人类深证明通常获得数月甚至数年的核查时间，却对 AI 结果提出几天内必须完成概念传承的额外条件，这不是对数学内容本身的对称评价。
+OpenAI 在 9 月 8 日公开论文和形式化材料，到本文 9 月 14 日修订时只有六天。它把结果作为模型能力展示，确实落在声明批评的 benchmark 激励之内；由此产生的过程问题也很具体：发布节奏是否压缩了写作，文字是否可读，先行工作是否得到妥善处理。benchmark 动机没有直接回答这些问题。仅凭商业动机，或者六天内尚未出现成熟的公共解说，不能认定这项成果已经忽视知识传承。论文、代码、引用、公开记录和后续修订才是相应的证据。若人类提出同样的结果会获得较长的理解时间，AI 参与的结果也应得到同样的时间尺度。
 
-更合适的路径，是把不同阶段同时保存下来：初始的形式化结果，面向人的可读论文，公开预印本和外部审评，随着审评产生的修订和更正，以及最终进入综述、教材和后续研究的结构解释。机器可以缩短发现和形式化；理解、归属、选择和传授仍由人类共同体完成。传承承担的是延长正确结果生命的工作，而非充当承认正确性的前置许可。
+更合适的路径，是让不同贡献并行推进并留下记录：保存初始形式结果，写成人类可读的论文，公开预印本并接受外部审评，根据批评修订和更正，再由综述、课堂、教材和后续研究逐步提取结构。机器可以缩短发现和形式化的时间；人类共同体继续承担解释、归属、选择和传授。每一层都增加成果的价值，没有一层需要否定另一层才能说明自身的重要性。
 
 ## 第三问：结果有价值，与产生过程是否恰当
 
@@ -129,9 +137,13 @@ On September 10, OpenAI updated its account. The company said that Buckmaster’
 
 On September 7, Terry Tao described the Alpöge–Buckmaster work as exciting. He explained that the three results still fell short of the unforced Navier–Stokes problem; in his view, they made further progress along that route look highly feasible. He also noted that the arguments were heavily AI-assisted and that the authors were rewriting extremely difficult initial drafts into professional explanations. Tao himself said that he needed more time, discussion, and modern tools to digest the proof. For him, solving a problem is a means toward mathematical understanding; understanding and insight are the deeper goals.
 
-On September 11, Tao published “A Severe Misalignment of AI in Mathematics,” initially signed by 25 Fields medalists. He wrote that the text grew out of discussions among the signatories during the previous week, and that they released it quickly because they considered the situation urgent. The declaration emphasizes discussion, simplification, readable writing, priority and attribution, teaching, and the movement of ideas into the mathematical community. Its concern is that when AI produces true-or-false answers at increasing speed, problem solving can become detached from the understanding, questioning, and transmission that the community wants mathematics to cultivate.
+On September 11, Tao published “A Severe Misalignment of AI in Mathematics,” initially signed by 25 Fields medalists. He wrote that the text grew out of discussions among the signatories during the previous week and was released quickly because they considered the situation urgent. The declaration states a clear hierarchy of value: solving problems is a tool and proxy for the mathematical community’s primary goal, which it identifies as conceptual understanding and insight. It criticizes the competition among AI companies to use famous open problems as model benchmarks, warning that rapid true-or-false announcements can crowd out careful writing, the isolation of new methods, citations to prior work, and the work by which mathematicians integrate a result into shared knowledge.
 
-The two interventions have a clear temporal and thematic connection, but they are not the same intervention. Tao’s September 7 post introduced the Alpöge–Buckmaster results and their mathematical mechanism. The September 11 declaration widened the subject to AI companies, the mathematical community, and other knowledge professions. It did not independently adjudicate the mathematics of OpenAI’s paper. It raised a broader question: when is a result merely computed, and when has it become knowledge that a community can understand, teach, and develop?
+The two interventions are close in time and subject, but they serve different purposes. The September 7 post introduced the Alpöge–Buckmaster results and their mathematical mechanism. The September 11 declaration widened the discussion to research incentives. It did not name OpenAI, Navier–Stokes, Alpöge, or Buckmaster, and it did not formally adjudicate OpenAI’s paper. It was nevertheless connected to the event. OpenAI had just presented a famous open problem as a demonstration of model capability, while the declaration directly opposed the use of such problems as AI benchmarks. Readers can reasonably place both in the same discussion.
+
+The declaration also contains a clear causal claim: benchmark competition drives rapid announcements, and rapid announcements crowd out careful writing, the isolation of methods, citations to prior work, and integration into shared knowledge. This identifies a real institutional risk and gives the declaration a definite critical direction in the present context. A judgment about a particular result requires evidence beyond that institutional risk. The benchmark motive explains why an organization invested resources and raises a process hypothesis: did the release schedule compress writing, attribution, and explanation? The answer comes from the paper and formalization, the citation record, and the authors’ response through criticism, revision, and later exposition. Commercial demonstration can coexist with mathematical contribution, while process quality is assessed on a separate line of evidence.
+
+The declaration has a substantive relation to the event, while judgment of the particular result must return to the work itself. Its demands for writing, attribution, explanation, and transmission identify real scholarly contributions. Its placement of conceptual understanding first, with problem solving as a tool and proxy, advances a general hierarchy that we do not accept.
 
 ## Why the event contains three different questions
 
@@ -147,27 +159,31 @@ The three questions interact, but they cannot answer one another. A formal proof
 
 ## First question: in what sense is a formalized conclusion correct?
 
-Formalization is not a prettier typesetting of a paper. It expresses the proposition, variables, hypotheses, dependencies, and proof as an object checked by a trusted kernel. If the natural-language claim corresponds to the formal object, if dependencies and axioms are disclosed, if the kernel can recheck the proof, and if an independent person or team can reproduce the check, the conclusion has a definite correctness boundary within its stated scope. Whether it contains a new mathematical structure or deserves a textbook treatment is a separate judgment.
+Formalization expresses a proposition, variables, hypotheses, dependencies, and proof as an object checked by a trusted kernel. If the natural-language claim corresponds term by term to the formal object, the dependencies and axioms are disclosed, the kernel can recheck the proof, and an independent person or team can reproduce it, the conclusion has a definite correctness boundary within its stated scope. Whether it reveals a new structure, reads well, or belongs in a textbook requires different evidence.
 
-SAT offers a useful reference point. A Boolean satisfiability solver may leave only a large search result or a certificate checked by an independent checker. Users do not have to understand every step of the search before they can use the conclusion that a particular instance is unsatisfiable. The result can enter protocol verification, scheduling, or finite combinatorial computation first; structural explanations can develop later. A SAT certificate can be useful before it becomes a mathematical textbook. Its checked conclusion already has an engineering use.
+SAT gives the cleanest reference point. Begin with a fixed satisfiability instance and trusted checking rules. A solver that claims satisfiability can provide an assignment; one that claims unsatisfiability can provide a certificate for an independent checker. Once the check succeeds, downstream work can rely on that bounded conclusion to reject a design, confirm a constraint, or continue a computation. The checked conclusion can enter downstream work while the solver’s search remains conceptually opaque and while an elegant theory has yet to be extracted from the certificate.
 
-A formalized AI proof follows the same basic logic. If an AI produces a much more complicated proof and a Lean kernel checks it line by line, the result should not be treated as nonexistent merely because people have not quickly extracted its structure. It may be difficult to read, it may lack a polished conceptual explanation, and later work may show that it combines familiar methods. Those facts affect maturity and teachability. They do not automatically erase the limited usability of a checked conclusion within its boundary. Formalization is not magic: people must still check that the natural-language proposition matches the formal object, that boundary conditions were expressed correctly, and that the code proves what the paper claims.
+A formalized AI proof places the same logic in a richer object. Here the fixed items are the precise proposition, proof term, dependencies, and checking kernel. If the natural-language theorem faithfully matches the formal proposition, the dependency boundary contains no hidden gap, and the kernel accepts the proof term, later proofs can invoke the theorem within that published boundary. This is more than a model saying that an answer is true; it is a proof object that can be checked again. The absence of a mature human account limits explanation, teaching, and generalization. It does not turn an accepted proof object into a result that does not yet exist.
 
-This is where we see a double standard. If a human researcher released the same proposition with the same formal status on September 8, we would not deny its correctness or every limited use merely because no textbook-style explanation existed by September 14. Requiring an AI-originated result to acquire conceptual explanation and knowledge transmission within a few days, solely because of its origin, makes provenance a substitute for mathematical evaluation. The work should be judged by its proposition, proof, scope, and evidence. Origin matters for research ethics; it should not by itself change the standard for correctness.
+Here we differ explicitly from the declaration’s general hierarchy. A reliably checked new conclusion is itself a mathematical contribution. Its established content has value from the outset, and later understanding adds another form of value. Explaining the proof’s structure, forming new concepts, extending the method, and transmitting it to later researchers constitute another kind of mathematical contribution. In some work the structure is the main achievement; in other problems the exact answer carries substantial value by itself; often both matter. Their relative weight must be judged case by case. Conceptual understanding cannot be ranked first in advance, and AI participation in either the solution or its explanation cannot determine that ranking.
 
-This point is not an independent mathematical verdict on OpenAI’s paper. It is a fairness principle. Ask first whether the conclusion has been correctly stated and checked; then ask how people will understand it and turn it into shared knowledge. The second question may take years without making the first question empty. The first may have an answer without making the second complete.
+The risk of a double standard does not arise only from later misreadings of the declaration. The declaration itself connects benchmark motives with rushed publication and weak transmission, an empirical claim worth testing. A complete judgment has two steps. A commercial benchmark raises a process hypothesis about whether the incentive compressed writing, attribution, and explanation. The paper, formalization, citations, version record, and later conduct provide the evidence for deciding whether responsibility was neglected. The mathematical standard does not rise or fall with the motive. Human researchers may also release early under pressure from priority, prizes, or prestige, and their work still returns to evaluation on its merits. The same principle applies when an AI company is motivated by model capability.
+
+If an early result with the same scope and formal status would receive months or years of checking and digestion when released by a human, an AI-originated result should not be denied recognition merely because it has not supplied a textbook account within days. Criticism of an unfaithful formalization, a dependency gap, unreadable writing, or inaccurate attribution may all be justified. It should identify the actual defect and use the same standard for human and AI-assisted work.
+
+This argument does not complete a mathematical review of OpenAI’s paper. It establishes an order of review: first check the proposition, proof object, dependencies, and fidelity of the formalization; then evaluate structural insight, readability, prior work, and long-term transmission. An answer to the first group does not complete the second. The time required by the second cannot erase what the first has established.
 
 ## Second question: how does a correct result become shared knowledge?
 
-The declaration is right to emphasize transmission. Mathematics does not end when an answer is placed in a repository. A result needs to say what it solves, how it connects to earlier work, which steps carry the argument, what limits its use, and how later readers can learn and extend it. Clear papers, public discussion, external review, teaching materials, surveys, and textbooks are different links in that chain.
+The declaration names several tasks that are necessary to the long development of mathematics: readable writing, discussion, simplification, accurate attribution, teaching, and later research. They connect a local result to the literature, allow others to understand its scope and methods, and make further research possible. Authors remain responsible for this work after a result is released.
 
-Those links do not have to form a one-way gate in which transmission must be finished before use is permitted. A formally checked local conclusion can be cited, reproduced, or used in a bounded calculation while people spend more time understanding its structure, correcting its language, extracting methods, and deciding whether it belongs in a textbook. Leaving a result in human knowledge is one function of mathematics. Leaving it as a reliably callable component is another. Both functions matter, and they do not have to finish at the same time.
+These tasks form an independent contribution. Mathematical value also arises from an established conclusion, and a bounded correct result can be used while explanation and transmission continue. Preserving a result as knowledge that people can understand, teach, and develop is one function of mathematics. Preserving it as a bounded component that later proofs and computations can reliably invoke is another. The two functions can reinforce each other and mature at different times. Their relative contribution depends on the problem, theorem, and use.
 
-The history of the Poincaré conjecture shows why deep proofs have their own timescale. Perelman’s first related preprint appeared on November 11, 2002. Two further papers followed in March and July 2003, so the initial set of materials took about eight months to assemble. Expositions, checking, and reorganizing continued through the work of Hamilton, Kleiner, Lott, Tian, and others. By 2006, roughly three and a half years after the first preprint, the proof had accumulated the explanations and checks that allowed the community to rely on it publicly. There was no single switch from “not knowledge” to “knowledge”; there was a long chain from proof, to checking, to exposition, to teaching.
+The history of the Poincaré conjecture shows why deep proofs have their own timescale. Perelman’s first related preprint appeared on November 11, 2002. Two further papers followed in March and July 2003, so the initial materials took about eight months to assemble. Exposition, checking, and reorganization continued through work by Hamilton, Kleiner, Lott, Tian, and others. By 2006, roughly three and a half years after the first preprint, the proof had gradually acquired an account on which the community could publicly rely. Its failure to become textbook mathematics in its first days did not mean that it had made no mathematical contribution. Proof, checking, explanation, and teaching proceed at different speeds.
 
-OpenAI’s material appeared on September 8. By this article’s revision on September 14, only six days had passed. The absence of a mature public exposition after six days means that the work of reading and translating had just begun. Human proofs of great depth are given months or years for checking, yet an AI result is sometimes asked to complete conceptual transmission within days. That is not a symmetric evaluation of the mathematics.
+OpenAI released its paper and formal materials on September 8. Only six days had passed by this article’s revision on September 14. Its presentation of the result as a demonstration of model capability does fall within the benchmark incentive criticized by the declaration. The resulting process questions are concrete: did the release schedule compress the writing, is the paper readable, and was prior work handled properly? The benchmark motive does not answer them. Evidence of neglected transmission must come from the paper, code, citations, public record, and later revisions; commercial motive and a six-day interval describe the context of that inquiry. The paper, code, citations, public record, and later revisions provide the relevant evidence. If an equivalent human result would receive a longer period for understanding, an AI-assisted result should receive the same timescale.
 
-A better path preserves the stages together: the initial formal result, a paper people can read, a public preprint and external review, revisions and corrections, and eventually structural explanations in surveys, classrooms, and later research. Machines can shorten discovery and formalization. Understanding, attribution, selection, and teaching still require a human community. Transmission is not prior permission for correctness; it is the work that gives a correct result a longer life.
+A sounder path lets the contributions proceed in parallel and preserves their record: retain the initial formal result, write a paper that people can read, publish a preprint and invite external review, revise and correct it in response, and allow surveys, classrooms, textbooks, and later research to extract structure over time. Machines can shorten discovery and formalization. The human community continues the work of explanation, attribution, selection, and teaching. Each layer adds value without having to deny the value of another.
 
 ## Third question: can a valuable result still come from an inappropriate process?
 
@@ -224,11 +240,15 @@ Buckmaster の文書には、優先権と著者表示をめぐるさらに鋭い
 
 ## Tao の二つの発言が議論を広げた
 
-9月7日、Terry Tao は Alpöge–Buckmaster の仕事を 非常に刺激的な新展開と紹介しました。三つの結果は外力のない Navier–Stokes へ向かう途中の成果です。Tao は、この経路をさらに進めることが現実的になったと説明しました。また、議論は AI の支援を強く受けており、著者たちは非常に読みにくい最初の草稿を専門的な説明へ書き直していると述べました。Tao 自身も、黒板での議論や現代のツールを使って、さらに時間をかけて理解する必要があるとしています。Tao にとって、問題を解くことは数学的理解へ進む手段であり、理解と洞察がより深い目標です。
+9月7日、Terry Tao は Alpöge–Buckmaster の仕事を刺激的な新展開として紹介しました。三つの結果は外力のない Navier–Stokes 問題にはまだ届いていませんが、この経路をさらに進めることが現実的になったと説明しています。また、議論は AI の支援を強く受けており、著者たちは非常に読みにくい最初の草稿を専門的な説明へ書き直していると述べました。Tao 自身も、議論や現代のツールを使いながら、さらに時間をかけて証明を理解する必要があるとしています。Tao にとって、問題を解くことは数学的理解へ進む手段であり、理解と洞察がより深い目標です。
 
-9月11日、Tao は “A Severe Misalignment of AI in Mathematics” を公表し、最初の署名者は25人のフィールズ賞受賞者でした。署名者の前週の議論から生まれ、状況が緊急だと考えたため、長い協議を待たずに公開したと説明しています。声明は、議論、簡約、読みやすい執筆、先行研究と帰属、教育、そしてアイデアを数学共同体へ送り込むことを重視します。AI が真偽の答えを急速に生産するとき、問題を解く道具が、共同体が数学に求めてきた理解、問い、伝承から切り離される危険を指摘しています。
+9月11日、Tao は “A Severe Misalignment of AI in Mathematics” を公表し、最初の署名者は25人のフィールズ賞受賞者でした。署名者による前週の議論から生まれ、状況が緊急だと考えたため早く公開したと説明しています。声明は、価値について明確な順序を示しています。問題を解くことは数学共同体の「第一の目標」に向かう道具であり代理で、その目標は概念的理解と洞察だとします。また、著名な未解決問題をモデルの benchmark にする AI 企業間の競争を批判し、真偽の答えを急いで発表することが、丁寧な執筆、新しい方法の抽出、先行研究の引用、数学者が結果を共有知へ組み込む時間を圧迫すると警告しています。
 
-二つの発言には時間的・主題的なつながりがありますが、同じ発言ではありません。9月7日の記事は Alpöge–Buckmaster の結果と数学的機構を紹介し、9月11日の声明は AI 企業、数学共同体、他の知識分野へ論点を広げました。声明は OpenAI の論文の数学を独立に裁定したものではありません。結果が単に計算された段階から、共同体が理解し、教え、発展させられる知識になるまでの距離を問いかけています。
+二つの発言は時間と主題の面で近くにありますが、役割は異なります。9月7日の記事は Alpöge–Buckmaster の結果と数学的機構を紹介し、9月11日の声明は研究上の動機へ議論を広げました。声明は OpenAI、Navier–Stokes、Alpöge、Buckmaster の名を挙げず、OpenAI の論文を正式に裁定してもいません。それでも、この出来事と切り離されてはいません。OpenAI は著名な未解決問題をモデル能力の実演として示し、声明はそのような問題を AI の benchmark に使うことを直接批判しています。両者を同じ議論の中で読むのは自然です。
+
+声明には明確な因果判断もあります。benchmark の競争が発表を速め、その速さが丁寧な執筆、方法の抽出、先行研究の引用、共有知への統合を圧迫するという判断です。これは現実にあり得る制度的リスクを示し、現在の文脈で声明に明確な批判方向を与えています。ただし、リスクから事実判断へ進むには検査が必要です。問題をモデルの benchmark に使うことは、組織が資源を投入した理由を説明します。それだけで論文の説明が不足していたことや、研究者が伝承を軽視したことは証明できません。商業的な実演と数学的貢献は両立します。伝承が十分だったかは、論文と形式化を読み、引用と帰属を調べ、批判、改訂、後の解説への対応を見ることで判断すべきです。
+
+声明は現在の出来事と実質的に関係していますが、具体的な成果の判断は作品そのものに戻る必要があります。執筆、帰属、説明、伝承は実質的な学術貢献です。一方、概念的理解を第一に置き、問題を解くことを道具と代理として位置づける一般的な順序を、私たちは受け入れません。
 
 ## なぜこの出来事を三つの問いに分けるのか
 
@@ -244,27 +264,31 @@ Buckmaster の文書には、優先権と著者表示をめぐるさらに鋭い
 
 ## 第一の問い：形式化された結論はどの意味で正しいのか
 
-形式化は論文の組版を整えることではありません。命題、変数、仮定、依存関係、証明を、信頼できるカーネルが検査できる対象として表します。自然言語の主張と形式対象が対応し、依存関係と公理が開示され、カーネルが再検査でき、独立した人やチームが再現できるなら、その結論は明示された範囲で明確な正しさの境界を持ちます。新しい数学的構造を含むか、教科書に載るべきかは別の判断です。
+形式化は、命題、変数、仮定、依存関係、証明を、信頼できるカーネルが検査できる対象として表します。自然言語の主張と形式対象が一つずつ対応し、依存関係と公理が公開され、カーネルが再検査でき、独立した人やチームが再現できるなら、その結論は明示された範囲で明確な正しさの境界を持ちます。新しい構造を示すか、読みやすいか、教科書に入るかは、別の証拠を必要とします。
 
-SAT は有用な参照になります。Boolean 充足可能性のソルバーは、大きな探索結果や、独立チェッカーが検証する証明書だけを残すことがあります。利用者は探索の全過程を理解しなくても、特定のインスタンスが充足不能だという結論を使えます。その結果は、プロトコル検証、スケジューリング、有限組合せ計算に先に入ることができ、構造の説明は後から発展します。SAT の証明書は数学の教科書ではありませんが、検査済みの結論はすでに工学的な用途を持ちます。
+SAT は最も簡潔な参照になります。まず、具体的な充足可能性のインスタンスと、信頼する検査規則を固定します。ソルバーが充足可能だと主張するなら代入を示せます。充足不能だと主張するなら、独立チェッカーが検査できる証明書を示せます。検査に通れば、後の作業はその境界内で結論を使い、設計を除外し、制約を確認し、次の計算へ進めます。利用者はソルバーが探索した枝をすべて理解する必要がなく、証明書が先に美しい理論へ変わる必要もありません。
 
-形式化された AI の証明も基本的には同じ論理に従います。AI がはるかに複雑な証明を出し、Lean のカーネルが一行ずつ検査したなら、人間がすぐに構造を抽出できないという理由だけで、結果を存在しないものとして扱うべきではありません。読みにくさ、概念説明の不足、後から見れば既存手法の組合せにすぎない可能性は、成熟度と教えやすさに影響します。しかし、境界内で検査された結論の限定的な利用価値を自動的に消しません。形式化も万能ではなく、自然言語の命題と形式対象の一致、境界条件の表現、コードと論文の対応を人が確認する必要があります。
+形式化された AI の証明は、同じ論理をさらに豊かな対象に置きます。ここで固定されるのは、正確な命題、証明項、依存関係、検査カーネルです。自然言語の定理が形式命題と忠実に一致し、依存関係に隠れた穴がなく、カーネルが証明項を受理するなら、後続の証明は公表された境界内でその定理を利用できます。この繰り返し検査できる証明対象は、モデルによる一言の「真」という回答より多くの監査可能な構造を含みます。人間による成熟した説明がないことは、解説、教育、一般化を制限します。受理された証明対象は、公表された境界内ですでに一つの結果を構成します。
 
-ここで私たちが二重基準を問題にします。もし同じ命題と同じ形式化の状態を持つ結果を人間の研究者が9月8日に公開していたなら、9月14日までに教科書的な説明がないことだけで、正しさや限定的な利用価値を否定することはないでしょう。AI から出たという理由だけで、数日以内に概念説明と知識継承まで終えるよう求めるなら、出所が数学的評価の代わりになっています。評価は命題、証明、範囲、証拠に向けるべきです。出所は研究倫理に関係しますが、それだけで正しさの基準を変えるべきではありません。
+ここで私たちは、声明が示す一般的な順序と明確に異なる見方を取ります。信頼できる検査を通った新しい結論は、それ自体が数学的貢献です。将来の理解によって初めて価値を得る代理にすぎないとは考えません。証明の構造を説明し、新しい概念を作り、方法を拡張し、後の研究者へ伝えることは、もう一つの数学的貢献です。構造が主な成果になる仕事も、正確な答えそのものが大きな価値を持つ問題もあり、多くの場合は両方が重要です。相対的な重みは個別に判断する必要があります。概念的理解を常に第一に置くことも、解答や説明の一部に AI が参加したことで順序を変えることもできません。
 
-これは OpenAI の論文についての独立した数学判定ではありません。公平な評価の原則です。まず結論が正しく述べられ、検査されているかを問う。そのうえで、人間がそれを理解し、共有知へ変える方法を問う。第二の仕事に数年かかっても、第一の問いが空になるわけではありません。第一に答えがあっても、第二が完了したことにはなりません。
+二重基準の危険は、声明の後の誤読だけから生まれるわけではありません。声明自体が benchmark の動機と、急いだ公開や弱い知識伝承を結びつけています。これは検証すべき経験的な判断ですが、作品を調べずに結論にはできません。より完全な推論は、商業的 benchmark が検証すべき過程上の仮説、つまり動機が執筆、帰属、説明を圧縮したかという問いを生み、論文、形式化、引用、版の記録、その後の対応が責任を果たしたかを判断する証拠を与える、というものです。数学的基準そのものは動機によって上下しません。人間の研究者も優先権、賞金、名声の圧力で早く公開することがありますが、動機だけで結果は消えません。モデル能力の実演という動機も、検査済みの結論の数学的価値を単独で下げることはできません。
+
+同じ範囲と形式化状態の初期結果を人間が公表すれば数か月、場合によっては数年の検査と理解の時間が与えられるなら、AI 由来の結果だけに数日以内の教科書的説明を要求し、それがなければ貢献を認めないのは対称な評価ではありません。形式化の不一致、依存関係の穴、読みにくい論文、不正確な帰属への批判は成立し得ます。批判は具体的な欠陥を示し、人間と AI 支援の成果に同じ基準を使うべきです。
+
+この議論は OpenAI の論文の数学的審査を完了するものではありません。まず命題、証明対象、依存関係、形式化の忠実性を調べ、その後で構造的洞察、可読性、先行研究、長期的な伝承を評価するという順序を示します。前の問いに答えがあっても後の仕事は完了しません。後の仕事に時間がかかっても、前の検査が確立した内容は消えません。
 
 ## 第二の問い：正しい結果はどのように共有知になるのか
 
-声明が知識の伝承を重視するのには理由があります。答えをリポジトリに置けば数学が終わるわけではありません。何を解いたのか、どの先行研究とつながるのか、どの手順が核心なのか、利用の限界は何か、後の読者がどう学び拡張できるのかを示す必要があります。明快な論文、公開討論、外部審査、教育資料、サーベイ、教科書は、その鎖の異なる部分です。
+読みやすい執筆、議論、簡約、正確な帰属、教育、後続研究という声明が挙げた仕事は、数学の長期的な発展に必要です。局所的な結果を既存文献へつなぎ、他の人が範囲と方法を理解し、次の研究へ進めるようにします。結果を公開した後も、著者はこれらの仕事に責任を持ちます。
 
-これらは「先に伝承を終えなければ使えない」という一方向の門である必要はありません。形式化された局所的な結論は、境界を明示したうえで引用、再現、計算に使えます。その間に人間は構造を理解し、表現を直し、方法を抽出し、教科書に入るか判断できます。結果を人間の知識として残すことは数学の一つの機能です。信頼できる呼び出し可能な部品として残すことは別の機能です。両方が重要で、完了時期は同じでなくてよいのです。
+これらの仕事は独立した貢献です。数学的価値の唯一の源でも、正しい結果を使う前に必ず通る一方向の門でもありません。人が理解し、教え、発展させられる知識として結果を残すことは、数学の一つの機能です。後続の証明と計算が信頼して呼び出せる、境界の明確な部品として残すことは別の機能です。二つは互いを強め、異なる時期に成熟できます。具体的な貢献の大きさは、問題、定理、用途によって決まります。
 
-ポアンカレ予想の歴史は、深い証明に固有の時間尺度があることを示します。Perelman の最初の関連プレプリントは2002年11月11日に公開され、その後の二本が2003年3月と7月に現れました。最初のプレプリントから初期資料がそろうまで約8か月です。その後も Hamilton、Kleiner、Lott、Tian らによる解説、検証、整理が続きました。2006年には、最初のプレプリントから約3年半を経て、百年越しの問題の証明が共同体から公に頼れる形へ近づきました。証明が一日で教科書的な知識へ変わることはなく、証明、検証、解説、教育の長い鎖が形成されました。
+ポアンカレ予想の歴史は、深い証明に固有の時間尺度があることを示します。Perelman の最初の関連プレプリントは2002年11月11日に公開され、その後の二本が2003年3月と7月に現れました。初期資料がそろうまで約8か月です。その後も Hamilton、Kleiner、Lott、Tian らによる解説、検証、整理が続きました。2006年には、最初のプレプリントから約3年半を経て、共同体が公に頼れる理解が徐々に形成されました。最初の数日で教科書的な数学にならなかったことは、当時の数学的貢献がなかったことを意味しません。証明、検査、説明、教育は異なる速度で進みます。
 
-OpenAI の資料が公開されたのは9月8日です。この記事の改訂日である9月14日まで、わずか6日しかありません。6日後に成熟した公開解説がないことは、読解と転換が始まったばかりだという意味です。人間の深い証明には数か月や数年の検証時間を与えながら、AI の結果だけに数日で概念継承を終えるよう求めるのは、数学の対称的な評価ではありません。
+OpenAI が論文と形式資料を公開したのは9月8日です。この記事の改訂日である9月14日まで、わずか6日しかありません。モデル能力の実演として結果を示したことは、声明が批判する benchmark の動機に確かに含まれます。そこから生じる過程上の問いは具体的です。公開日程が執筆を圧縮したのか、文章は読めるのか、先行研究を適切に扱ったのか。benchmark の動機だけでは答えは出ません。商業的な動機や、6日以内に成熟した公開解説がないことだけでは、知識伝承が軽視されたとは確定できません。論文、コード、引用、公開記録、その後の改訂が判断の証拠になります。同じ結果を人間が発表した場合に長い理解期間を認めるなら、AI 支援の結果にも同じ時間尺度を認めるべきです。
 
-段階を一緒に保存する道筋が、ここでは有用です。初期の形式結果、人間が読める論文、公開プレプリントと外部審査、改訂と訂正、そしてサーベイ、授業、後続研究での構造説明です。機械は発見と形式化を短縮できます。理解、帰属、選択、教育には人間共同体の仕事が残ります。伝承は正しさを認めた後も続く仕事であり、正しい結果に長い生命を与えます。
+より適切な道は、異なる貢献を並行して進め、その記録を残すことです。最初の形式結果を保存し、人が読める論文を書き、プレプリントを公開して外部審査を受け、批判に応じて修正し、サーベイ、授業、教科書、後続研究が時間をかけて構造を抽出します。機械は発見と形式化を短縮できます。人間共同体は説明、帰属、選択、教育を続けます。各層は、別の層の価値を否定することなく成果に価値を加えます。
 
 ## 第三の問い：価値ある結果でも、過程は不適切になり得るのか
 
